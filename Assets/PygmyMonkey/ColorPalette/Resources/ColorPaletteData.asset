@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1416b21ef49ec4915ad4c2149698a521, type: 3}
+  m_Name: ColorPaletteData
+  m_EditorClassIdentifier: 
+  m_currentPaletteIndex: 0
+  colorPaletteList:
+  - name: 01 - Red
+    showDetails: 0
+    colorInfoList:
+    - name: Red 50
+      color: {r: 1, g: 0.92156863, b: 0.93333334, a: 1}
+    - name: Red 100
+      color: {r: 1, g: 0.8039216, b: 0.8235294, a: 1}
+    - name: Red 200
+      color: {r: 0.93333334, g: 0.6, b: 0.6, a: 1}
+    - name: Red 300
+      color: {r: 0.89411765, g: 0.44705883, b: 0.44705883, a: 1}
+    - name: Red 400
+      color: {r: 0.93333334, g: 0.3254902, b: 0.3137255, a: 1}
+    - name: Red 500
+      color: {r: 0.9529412, g: 0.2627451, b: 0.21176471, a: 1}
+    - name: Red 600
+      color: {r: 0.89411765, g: 0.22352941, b: 0.20784314, a: 1}
+    - name: Red 700
+      color: {r: 0.8235294, g: 0.18431373, b: 0.18431373, a: 1}
+    - name: Red 800
+      color: {r: 0.77254903, g: 0.15686275, b: 0.15686275, a: 1}
+    - name: Red 900
+      color: {r: 0.7137255, g: 0.10980392, b: 0.10980392, a: 1}
+    colorList: []
+  - name: UI 3
+    showDetails: 1
+    colorInfoList:
+    - name: '#2d728f'
+      color: {r: 0.18039216, g: 0.4509804, b: 0.5647059, a: 1}
+    - name: '#9c3848'
+      color: {r: 0.6156863, g: 0.22352941, b: 0.28627452, a: 1}
+    - name: '#f09151'
+      color: {r: 0.94509804, g: 0.57254905, b: 0.32156864, a: 1}
+    - name: '#7fb092'
+      color: {r: 0.5019608, g: 0.69411767, b: 0.5764706, a: 1}
+    - name: '#87bcde'
+      color: {r: 0.53333336, g: 0.7411765, b: 0.8745098, a: 1}
+    colorList: []
+  - name: UI2
+    showDetails: 1
+    colorInfoList:
+    - name: '#2d728f'
+      color: {r: 0.18039216, g: 0.4509804, b: 0.5647059, a: 1}
+    - name: '#b34b05'
+      color: {r: 0.7058824, g: 0.29803923, b: 0.023529412, a: 1}
+    - name: '#f09151'
+      color: {r: 0.94509804, g: 0.57254905, b: 0.32156864, a: 1}
+    - name: '#7fb092'
+      color: {r: 0.5019608, g: 0.69411767, b: 0.5764706, a: 1}
+    - name: '#87bcde'
+      color: {r: 0.53333336, g: 0.7411765, b: 0.8745098, a: 1}
+    colorList: []
+  - name: UI4 Brighter
+    showDetails: 1
+    colorInfoList:
+    - name: '#3494cf'
+      color: {r: 0.20784314, g: 0.58431375, b: 0.8156863, a: 1}
+    - name: '#c8436d'
+      color: {r: 0.7882353, g: 0.26666668, b: 0.43137255, a: 1}
+    - name: '#e5a286'
+      color: {r: 0.9019608, g: 0.6392157, b: 0.5294118, a: 1}
+    - name: '#e5a286'
+      color: {r: 0.9019608, g: 0.6392157, b: 0.5294118, a: 0.69803923}
+    - name: '#8ec5ac'
+      color: {r: 0.56078434, g: 0.7764706, b: 0.6784314, a: 1}
+    - name: '#9cc6eb'
+      color: {r: 0.6156863, g: 0.78039217, b: 0.9254902, a: 1}
+    colorList: []
+  - name: UI5
+    showDetails: 0
+    colorInfoList:
+    - name: '#2d728f'
+      color: {r: 0.18039216, g: 0.4509804, b: 0.5647059, a: 1}
+    - name: '#b6244f'
+      color: {r: 0.7176471, g: 0.14509805, b: 0.3137255, a: 1}
+    - name: '#72ddf7'
+      color: {r: 0.4509804, g: 0.87058824, b: 0.972549, a: 1}
+    - name: '#f7a399'
+      color: {r: 0.972549, g: 0.6431373, b: 0.6039216, a: 1}
+    - name: '#fbffb9'
+      color: {r: 0.9882353, g: 1, b: 0.7294118, a: 1}
+    - name: '#b5ffe1'
+      color: {r: 0.7137255, g: 1, b: 0.8862745, a: 1}
+    - name: '#97dffc'
+      color: {r: 0.59607846, g: 0.8784314, b: 0.99215686, a: 1}
+    - name: '#acf39d'
+      color: {r: 0.6784314, g: 0.95686275, b: 0.61960787, a: 1}
+    - name: '#9cfffa'
+      color: {r: 0.6156863, g: 1, b: 0.9843137, a: 1}
+    colorList: []
+  - name: UI6
+    showDetails: 0
+    colorInfoList:
+    - name: '#3b95bb'
+      color: {r: 0.23529412, g: 0.5882353, b: 0.7372549, a: 1}
+    - name: '#d83868'
+      color: {r: 0.8509804, g: 0.22352941, b: 0.4117647, a: 1}
+    - name: '#8ce3f8'
+      color: {r: 0.5529412, g: 0.89411765, b: 0.9764706, a: 1}
+    - name: '#f8b2aa'
+      color: {r: 0.9764706, g: 0.7019608, b: 0.67058825, a: 1}
+    - name: '#fcffc4'
+      color: {r: 0.99215686, g: 1, b: 0.77254903, a: 1}
+    - name: '#c0ffe6'
+      color: {r: 0.75686276, g: 1, b: 0.90588236, a: 1}
+    - name: '#aae5fc'
+      color: {r: 0.67058825, g: 0.9019608, b: 0.99215686, a: 1}
+    - name: '#b9f5ad'
+      color: {r: 0.7294118, g: 0.9647059, b: 0.68235296, a: 1}
+    - name: '#b0fffb'
+      color: {r: 0.69411767, g: 1, b: 0.9882353, a: 1}
+    colorList: []
+  - name: UI6-1
+    showDetails: 1
+    colorInfoList:
+    - name: '#3b95bb'
+      color: {r: 0.23529412, g: 0.5882353, b: 0.7372549, a: 1}
+    - name: '#3b95bb'
+      color: {r: 0.23529412, g: 0.5882353, b: 0.7372549, a: 0.69803923}
+    - name: '#d83868'
+      color: {r: 0.8509804, g: 0.22352941, b: 0.4117647, a: 1}
+    - name: '#d83868'
+      color: {r: 0.8509804, g: 0.22352941, b: 0.4117647, a: 0.69803923}
+    - name: '#8ce3f8'
+      color: {r: 0.5529412, g: 0.89411765, b: 0.9764706, a: 1}
+    - name: '#8ce3f8'
+      color: {r: 0.5529412, g: 0.89411765, b: 0.9764706, a: 0.69803923}
+    - name: '#f8b2aa'
+      color: {r: 0.9764706, g: 0.7019608, b: 0.67058825, a: 1}
+    - name: '#f8b2aa'
+      color: {r: 0.9764706, g: 0.7019608, b: 0.67058825, a: 0.69803923}
+    - name: '#fcffc4'
+      color: {r: 0.99215686, g: 1, b: 0.77254903, a: 1}
+    - name: '#fcffc4'
+      color: {r: 0.99215686, g: 1, b: 0.77254903, a: 0.69803923}
+    - name: '#c0ffe6'
+      color: {r: 0.75686276, g: 1, b: 0.90588236, a: 1}
+    - name: '#c0ffe6'
+      color: {r: 0.75686276, g: 1, b: 0.90588236, a: 0.69803923}
+    - name: '#aae5fc'
+      color: {r: 0.67058825, g: 0.9019608, b: 0.99215686, a: 1}
+    - name: '#aae5fc'
+      color: {r: 0.67058825, g: 0.9019608, b: 0.99215686, a: 0.69803923}
+    - name: '#b9f5ad'
+      color: {r: 0.7294118, g: 0.9647059, b: 0.68235296, a: 1}
+    - name: '#b9f5ad'
+      color: {r: 0.7294118, g: 0.9647059, b: 0.68235296, a: 0.69803923}
+    - name: '#b0fffb'
+      color: {r: 0.69411767, g: 1, b: 0.9882353, a: 1}
+    - name: '#b0fffb'
+      color: {r: 0.69411767, g: 1, b: 0.9882353, a: 0.69803923}
+    colorList: []
+  - name: UI7
+    showDetails: 0
+    colorInfoList:
+    - name: '#2d728f'
+      color: {r: 0.18039216, g: 0.4509804, b: 0.5647059, a: 1}
+    - name: '#9c3848'
+      color: {r: 0.6156863, g: 0.22352941, b: 0.28627452, a: 1}
+    - name: '#f09151'
+      color: {r: 0.94509804, g: 0.57254905, b: 0.32156864, a: 1}
+    - name: '#e0dd00'
+      color: {r: 0.88235295, g: 0.87058824, b: 0, a: 1}
+    - name: '#7fb092'
+      color: {r: 0.5019608, g: 0.69411767, b: 0.5764706, a: 1}
+    - name: '#87bcde'
+      color: {r: 0.53333336, g: 0.7411765, b: 0.8745098, a: 1}
+    colorList: []
+  - name: UI8
+    showDetails: 1
+    colorInfoList:
+    - name: '#2d728f'
+      color: {r: 0.18039216, g: 0.4509804, b: 0.5647059, a: 1}
+    - name: '#6b2737'
+      color: {r: 0.42352942, g: 0.15686275, b: 0.21960784, a: 1}
+    - name: '#f09151'
+      color: {r: 0.94509804, g: 0.57254905, b: 0.32156864, a: 1}
+    - name: '#e0dd00'
+      color: {r: 0.8490566, g: 0.84390736, b: 0.38047346, a: 1}
+    - name: '#7fb092'
+      color: {r: 0.5019608, g: 0.69411767, b: 0.5764706, a: 1}
+    - name: '#87bcde'
+      color: {r: 0.53333336, g: 0.7411765, b: 0.8745098, a: 1}
+    colorList: []

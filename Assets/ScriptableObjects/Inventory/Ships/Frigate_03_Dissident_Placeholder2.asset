@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ae2337d47ce84b6b97adb72688fe966, type: 3}
+  m_Name: Frigate_03_Dissident_Placeholder2
+  m_EditorClassIdentifier: 
+  IsInstantiated: 0
+  itemSOType: 0
+  id: 826700dde9c6c402a92a83d8935f2ff5
+  displayName: Dissident Placeholder 2
+  itemLevel: 0
+  itemProgress: 0
+  itemIcon: {fileID: 21300000, guid: 710387993cb5c43858a01ab653a4023c, type: 3}
+  itemPrefab: {fileID: 7193191489317495084, guid: c54be589b918449e3bf0afacc96bb644, type: 3}
+  shipClass: 1
+  totalShieldAmount: 0
+  totalHullAmount: 0
+  targetingRange: 0
+  shipMaxSpeed: 0
+  shipTurnSpeed: 0
+  tacticalShieldAmount: 0
+  industrialShieldAmount: 0
+  operationsShieldAmount: 0
+  engineeringShieldAmount: 0
+  tacticalHullAmount: 0
+  industrialHullAmount: 0
+  operationsHullAmount: 0
+  engineeringHullAmount: 0

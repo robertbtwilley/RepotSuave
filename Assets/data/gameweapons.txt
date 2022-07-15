@@ -1,0 +1,35 @@
+[
+  {
+    "GameWeaponID": "fd0e152f8b0574349941cf4cd86721b0",
+    "GameWeaponDisplayName": "Basic Torpedo Tube",
+    "GameWeaponRange": 3000.0,
+    "GameWeaponDamage": 3000.0,
+    "GameWeaponCapacity": 1,
+    "GameWeaponAimSpeed": 5.0,
+    "GameWeaponFireRate": 2.0,
+    "GameWeaponFireDelay": 6.0,
+    "GameWeaponBurstVolume": 1
+  },
+  {
+    "GameWeaponID": "28b23826408ca46cdb432279a35d7e21",
+    "GameWeaponDisplayName": "Mounted Railgun 1",
+    "GameWeaponRange": 2500.0,
+    "GameWeaponDamage": 1500.0,
+    "GameWeaponCapacity": 6,
+    "GameWeaponAimSpeed": 1.0,
+    "GameWeaponFireRate": 1.0,
+    "GameWeaponFireDelay": 2.0,
+    "GameWeaponBurstVolume": 1
+  },
+  {
+    "GameWeaponID": "2ecbfe67242864d9f800eee71a735d79",
+    "GameWeaponDisplayName": "PDC AutoCannon 1",
+    "GameWeaponRange": 1200.0,
+    "GameWeaponDamage": 300.0,
+    "GameWeaponCapacity": 1000,
+    "GameWeaponAimSpeed": 1.0,
+    "GameWeaponFireRate": 0.05,
+    "GameWeaponFireDelay": 0.1,
+    "GameWeaponBurstVolume": 100
+  }
+]

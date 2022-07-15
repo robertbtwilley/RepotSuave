@@ -1,0 +1,47 @@
+[
+  {
+    "GameShipID": "4999a39da66f04f53a0e0b32a23fc746",
+    "GameShipDisplayName": "Dissident Fury",
+    "GameShipTargetingRange": 3000.0,
+    "GameShipMaxSpeed": 500.0,
+    "GameShipTurnSpeed": 1.0,
+    "GameShipTacticalShieldAmount": 15000.0,
+    "GameShipIndustrialShieldAmount": 6000.0,
+    "GameShipOperationsShieldAmount": 12000.0,
+    "GameShipEngineeringShieldAmount": 8000.0,
+    "GameShipTacticalHullAmount": 7500.0,
+    "GameShipIndustrialHullAmount": 3000.0,
+    "GameShipOperationsHullAmount": 6000.0,
+    "GameShipEngineeringHullAmount": 4000.0
+  },
+  {
+    "GameShipID": "1372e1b9092854aec91e651c117e7a5d",
+    "GameShipDisplayName": "Dissident Placeholder",
+    "GameShipTargetingRange": 2000.0,
+    "GameShipMaxSpeed": 400.0,
+    "GameShipTurnSpeed": 1.0,
+    "GameShipTacticalShieldAmount": 14000.0,
+    "GameShipIndustrialShieldAmount": 5000.0,
+    "GameShipOperationsShieldAmount": 6000.0,
+    "GameShipEngineeringShieldAmount": 4000.0,
+    "GameShipTacticalHullAmount": 7500.0,
+    "GameShipIndustrialHullAmount": 1000.0,
+    "GameShipOperationsHullAmount": 3000.0,
+    "GameShipEngineeringHullAmount": 2000.0
+  },
+  {
+    "GameShipID": "826700dde9c6c402a92a83d8935f2ff5",
+    "GameShipDisplayName": "Dissident Placeholder2",
+    "GameShipTargetingRange": 2000.0,
+    "GameShipMaxSpeed": 300.0,
+    "GameShipTurnSpeed": 1.0,
+    "GameShipTacticalShieldAmount": 14000.0,
+    "GameShipIndustrialShieldAmount": 5000.0,
+    "GameShipOperationsShieldAmount": 6000.0,
+    "GameShipEngineeringShieldAmount": 4000.0,
+    "GameShipTacticalHullAmount": 7500.0,
+    "GameShipIndustrialHullAmount": 1000.0,
+    "GameShipOperationsHullAmount": 3000.0,
+    "GameShipEngineeringHullAmount": 2000.0
+  }
+]

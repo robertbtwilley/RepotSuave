@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822afc83e5a3644e3b3e173b95d7149c, type: 3}
+  m_Name: Launcher_Torpedo_Basic
+  m_EditorClassIdentifier: 
+  IsInstantiated: 0
+  itemSOType: 1
+  id: fd0e152f8b0574349941cf4cd86721b0
+  displayName: Basic Torpedo Tube
+  itemLevel: 0
+  itemProgress: 0
+  itemCurrentSlot: 0
+  itemIcon: {fileID: 21300000, guid: d9d23fecc630443d4b5ea763bef25ce0, type: 3}
+  itemPrefab: {fileID: 254367166412141322, guid: 8f2ec43eaea7b45fb9fa3c1fe86ee3a6, type: 3}
+  moduleSOType: 2
+  baseRange: 3000
+  baseDamage: 3000
+  baseCapacity: 1
+  baseAimSpeed: 5
+  baseFireRate: 2
+  fireDelay: 6
+  burstVolume: 1
+  FireFX: {fileID: 0}

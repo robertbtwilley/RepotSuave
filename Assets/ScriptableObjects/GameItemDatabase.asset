@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec23e68c7653a4d1782fb60a0d8cc146, type: 3}
+  m_Name: GameItemDatabase
+  m_EditorClassIdentifier: 
+  AllSOItems:
+  - {fileID: 11400000, guid: 4999a39da66f04f53a0e0b32a23fc746, type: 2}
+  - {fileID: 11400000, guid: 1372e1b9092854aec91e651c117e7a5d, type: 2}
+  - {fileID: 11400000, guid: 826700dde9c6c402a92a83d8935f2ff5, type: 2}
+  - {fileID: 11400000, guid: 55262a10c5bcb453ab32fe81e563f996, type: 2}
+  - {fileID: 11400000, guid: fd0e152f8b0574349941cf4cd86721b0, type: 2}
+  - {fileID: 11400000, guid: c88c0430c2a7644998539c8feb1e96eb, type: 2}
+  - {fileID: 11400000, guid: b9cf210054628434d9cc5ba2b2aa3025, type: 2}
+  - {fileID: 11400000, guid: 7d02347e426554a5fa182ed055ac4f55, type: 2}
+  - {fileID: 11400000, guid: 20dd45be0342b448494a3047d15f09ab, type: 2}
+  - {fileID: 11400000, guid: 2f76407d1a5e34b349b955d1721a95f6, type: 2}
+  - {fileID: 11400000, guid: 28b23826408ca46cdb432279a35d7e21, type: 2}
+  - {fileID: 11400000, guid: 2ecbfe67242864d9f800eee71a735d79, type: 2}
+  AllSOShips:
+  - {fileID: 11400000, guid: 4999a39da66f04f53a0e0b32a23fc746, type: 2}
+  - {fileID: 11400000, guid: 1372e1b9092854aec91e651c117e7a5d, type: 2}
+  - {fileID: 11400000, guid: 826700dde9c6c402a92a83d8935f2ff5, type: 2}
+  AllSOModules:
+  - {fileID: 11400000, guid: 55262a10c5bcb453ab32fe81e563f996, type: 2}
+  - {fileID: 11400000, guid: fd0e152f8b0574349941cf4cd86721b0, type: 2}
+  - {fileID: 11400000, guid: c88c0430c2a7644998539c8feb1e96eb, type: 2}
+  - {fileID: 11400000, guid: b9cf210054628434d9cc5ba2b2aa3025, type: 2}
+  - {fileID: 11400000, guid: 7d02347e426554a5fa182ed055ac4f55, type: 2}
+  - {fileID: 11400000, guid: 20dd45be0342b448494a3047d15f09ab, type: 2}
+  - {fileID: 11400000, guid: 2f76407d1a5e34b349b955d1721a95f6, type: 2}
+  - {fileID: 11400000, guid: 28b23826408ca46cdb432279a35d7e21, type: 2}
+  - {fileID: 11400000, guid: 2ecbfe67242864d9f800eee71a735d79, type: 2}
+  AllSOWeapons:
+  - {fileID: 11400000, guid: fd0e152f8b0574349941cf4cd86721b0, type: 2}
+  - {fileID: 11400000, guid: 28b23826408ca46cdb432279a35d7e21, type: 2}
+  - {fileID: 11400000, guid: 2ecbfe67242864d9f800eee71a735d79, type: 2}

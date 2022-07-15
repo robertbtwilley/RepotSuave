@@ -1,0 +1,121 @@
+[
+  {
+    "PlayerItemID": "4999a39da66f04f53a0e0b32a23fc746",
+    "PlayerItemDisplayName": "Dissident Fury",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 2
+  },
+  {
+    "PlayerItemID": "1372e1b9092854aec91e651c117e7a5d",
+    "PlayerItemDisplayName": "Dissident Placeholder",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "55262a10c5bcb453ab32fe81e563f996",
+    "PlayerItemDisplayName": "Basic Rock Stabilizer",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "fd0e152f8b0574349941cf4cd86721b0",
+    "PlayerItemDisplayName": "Basic Torpedo Tube",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "20dd45be0342b448494a3047d15f09ab",
+    "PlayerItemDisplayName": "Basic Magnetic Damper",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "20dd45be0342b448494a3047d15f09ab",
+    "PlayerItemDisplayName": "Basic Magnetic Damper",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "20dd45be0342b448494a3047d15f09ab",
+    "PlayerItemDisplayName": "Basic Magnetic Damper",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "2f76407d1a5e34b349b955d1721a95f6",
+    "PlayerItemDisplayName": "Basic Sensor Booster",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "28b23826408ca46cdb432279a35d7e21",
+    "PlayerItemDisplayName": "Salvaged Fixed Mount Railgun",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "2ecbfe67242864d9f800eee71a735d79",
+    "PlayerItemDisplayName": "Salvaged PDC Autocannon",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "2ecbfe67242864d9f800eee71a735d79",
+    "PlayerItemDisplayName": "Salvaged PDC Autocannon",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "2ecbfe67242864d9f800eee71a735d79",
+    "PlayerItemDisplayName": "Salvaged PDC Autocannon",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "2ecbfe67242864d9f800eee71a735d79",
+    "PlayerItemDisplayName": "Salvaged PDC Autocannon",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "b9cf210054628434d9cc5ba2b2aa3025",
+    "PlayerItemDisplayName": "Basic Inertial Stabilizer",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "b9cf210054628434d9cc5ba2b2aa3025",
+    "PlayerItemDisplayName": "Basic Inertial Stabilizer",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "7d02347e426554a5fa182ed055ac4f55",
+    "PlayerItemDisplayName": "Exanded Reactor Core",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  },
+  {
+    "PlayerItemID": "c88c0430c2a7644998539c8feb1e96eb",
+    "PlayerItemDisplayName": "Basic Rock Extractor",
+    "PlayerItemLevel": 1,
+    "PlayerItemProgress": 1,
+    "PlayerItemSlotID": 1
+  }
+]

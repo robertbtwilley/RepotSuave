@@ -1,0 +1,4 @@
+Parse error on line 30:
+...nBurstVolume": 1,  },  {    "GameWeap
+----------------------^
+Expecting 'STRING', got '}'

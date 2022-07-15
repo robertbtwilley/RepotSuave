@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf98d0bfba644f36b15264e78b2107f, type: 3}
+  m_Name: Miner_Fixed_Extractor_Basic
+  m_EditorClassIdentifier: 
+  IsInstantiated: 0
+  itemSOType: 1
+  id: c88c0430c2a7644998539c8feb1e96eb
+  displayName: 
+  itemLevel: 0
+  itemProgress: 0
+  itemCurrentSlot: 0
+  itemIcon: {fileID: 21300000, guid: 72477c9b88b3f4f35a29d08cabb8ab68, type: 3}
+  itemPrefab: {fileID: 6175706129813644251, guid: 30a3a48938dbf490e83624ed095ba7d9, type: 3}
+  moduleSOType: 5
+  baseRange: 0
+  baseDamage: 0
+  baseCapacity: 0
+  baseAimSpeed: 0
+  baseFireRate: 0
+  fireDelay: 0
+  burstVolume: 0
+  FireFX: {fileID: 0}
+  maxPivotAngle: 0
+  maxTurnSpeed: 0
