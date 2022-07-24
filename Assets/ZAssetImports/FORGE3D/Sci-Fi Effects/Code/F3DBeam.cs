@@ -65,11 +65,11 @@ namespace FORGE3D
             frameNo = 0;
 
             // Clear timer
-            if (FrameTimerID != -1)
-            {
-                F3DTime.time.RemoveTimer(FrameTimerID);
-                FrameTimerID = -1;
-            }
+            //if (FrameTimerID != -1)
+            //{
+            //    F3DTime.time.RemoveTimer(FrameTimerID);
+            //    FrameTimerID = -1;
+            //}
         }
 
         // Hit point calculation
@@ -201,9 +201,9 @@ namespace FORGE3D
                 lineRenderer.material.mainTexture = BeamFrames[frameNo];
 
                 // Add timer 
-                FrameTimerID = F3DTime.time.AddTimer(FrameStep, BeamFrames.Length - 1, OnFrameStep);
+                //FrameTimerID = F3DTime.time.AddTimer(FrameStep, BeamFrames.Length - 1, OnFrameStep);
 
-                frameNo = 1;
+                //frameNo = 1;
             }
         }
 

@@ -58,8 +58,8 @@ namespace FORGE3D
                 Animate();
 
             // Start oscillation sequence
-            if (Oscillate && Points > 0)
-                OscillateTimerID = F3DTime.time.AddTimer(OscillateTime, OnOscillate);
+            //if (Oscillate && Points > 0)
+            //    OscillateTimerID = F3DTime.time.AddTimer(OscillateTime, OnOscillate);
 
         }
 
@@ -70,18 +70,18 @@ namespace FORGE3D
             frameNo = 0;
 
             // Clear frame animation timer
-            if (FrameTimerID != -1)
-            {
-                F3DTime.time.RemoveTimer(FrameTimerID);
-                FrameTimerID = -1;
-            }
+            //if (FrameTimerID != -1)
+            //{
+            //    F3DTime.time.RemoveTimer(FrameTimerID);
+            //    FrameTimerID = -1;
+            //}
 
-            // Clear oscillation timer
-            if (OscillateTimerID != -1)
-            {
-                F3DTime.time.RemoveTimer(OscillateTimerID);
-                OscillateTimerID = -1;
-            }
+            //// Clear oscillation timer
+            //if (OscillateTimerID != -1)
+            //{
+            //    F3DTime.time.RemoveTimer(OscillateTimerID);
+            //    OscillateTimerID = -1;
+            //}
         }
 
         // Hit point calculation
@@ -200,7 +200,7 @@ namespace FORGE3D
             lineRenderer.material.mainTexture = BeamFrames[frameNo];
 
             // Add timer 
-            FrameTimerID = F3DTime.time.AddTimer(FrameStep, OnFrameStep);
+            //FrameTimerID = F3DTime.time.AddTimer(FrameStep, OnFrameStep);
 
             frameNo = 1;
         }

@@ -26,6 +26,7 @@ namespace SNCore
     public enum SEShipClass { NA, Frigate, Destroyer, Cruiser, BattleCruiser, Battleship, Barge, Highliner, Industrial }
     public enum SECurrentSlot { NA, Hangar, ActiveShip, TacticalTop, TacticalMid, TacticalBot, IndustrialTop, IndustrialMid, IndustrialBot, OperationsTop, OperationsMid, OperationsBot, EngineeringTop, EngineeringMid, EngineeringBot}
 
+    public enum SETurretAction { IdleTurret, ConcealedTurret, AimTrackCurretTarget, AimTrackSwitchTarget, AimTrackNewTarget, AimFireCurretTarget, AimFireSwitchTarget, AimFireNewTarget, AimReloadCurretTarget, AimReloadSwitchTarget, AimReloadNewTarget, ReloadNullTurret }
 
     #endregion Enums
 

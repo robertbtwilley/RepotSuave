@@ -21,8 +21,8 @@ namespace FORGE3D
         public void OnSpawned()
         {
             // Invokes despawn using timer delay
-            if (!DespawnOnMouseUp)
-                F3DTime.time.AddTimer(DespawnDelay, 1, DespawnOnTimer);
+            //if (!DespawnOnMouseUp)
+            //    F3DTime.time.AddTimer(DespawnDelay, 1, DespawnOnTimer);
         }
 
         // OnDespawned called by pool manager 

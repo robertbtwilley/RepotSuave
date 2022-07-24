@@ -21,8 +21,8 @@ namespace FORGE3D
             if (SendOnSpawned)
                 BroadcastMessage("OnSpawned", SendMessageOptions.DontRequireReceiver);
 
-            if (DebugLoop)
-                F3DTime.time.AddTimer(4, Reset);
+            //if (DebugLoop)
+                //F3DTime.time.AddTimer(4, Reset);
         }
 
         private void Reset()
@@ -42,7 +42,7 @@ namespace FORGE3D
             isWarping = false;
             WarpSpark.transform.localPosition = ShipJumpStartPoint;
             ShipPos.position = WarpSpark.transform.position;
-            F3DTime.time.AddTimer(3, 1, OnWarp);
+            //F3DTime.time.AddTimer(3, 1, OnWarp);
         }
 
         private void OnWarp()

@@ -46,8 +46,8 @@ namespace FORGE3D
                 if (!despawn)
                 {
                     // Set despawn flag and add despawn timer allowing particles fading
-                    despawn = true;
-                    F3DTime.time.AddTimer(1f, 1, OnDespawn);
+                    //despawn = true;
+                    //F3DTime.time.AddTimer(1f, 1, OnDespawn);
 
                     // Stop the particle systems
                     ps.Stop();

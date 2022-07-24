@@ -53,7 +53,7 @@ namespace FORGE3D
             // Set required flags and set delayed fade flag using timer 
             isEnabled = true;
             isFadeOut = false;
-            timerID = F3DTime.time.AddTimer(FadeOutDelay, OnFadeOut);
+            //timerID = F3DTime.time.AddTimer(FadeOutDelay, OnFadeOut);
 
             // Reset default color
             meshRenderer.material.SetColor(tintColorRef, defaultColor);
@@ -66,8 +66,8 @@ namespace FORGE3D
             // Remove timer
             if (timerID >= 0)
             {
-                F3DTime.time.RemoveTimer(timerID);
-                timerID = -1;
+                //F3DTime.time.RemoveTimer(timerID);
+                //timerID = -1;
             }
         }
 

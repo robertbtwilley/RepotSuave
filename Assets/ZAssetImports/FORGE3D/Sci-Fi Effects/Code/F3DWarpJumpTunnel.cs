@@ -32,8 +32,8 @@ namespace FORGE3D
         {
             grow = false;
             meshRenderer.material.SetFloat(alphaID, 0);
-            F3DTime.time.AddTimer(StartDelay, 1, ToggleGrow);
-            F3DTime.time.AddTimer(FadeDelay, 1, ToggleGrow);
+            //F3DTime.time.AddTimer(StartDelay, 1, ToggleGrow);
+            //F3DTime.time.AddTimer(FadeDelay, 1, ToggleGrow);
             transform.localScale = new Vector3(1f, 1f, 1f);
             transform.localRotation = transform.localRotation * Quaternion.Euler(0, 0, Random.Range(-360, 360));
         }

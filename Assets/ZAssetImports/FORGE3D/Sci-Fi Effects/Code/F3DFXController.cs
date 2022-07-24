@@ -33,6 +33,23 @@ namespace FORGE3D
         // Timer reference                
         private int timerID = -1;
 
+        public float aimSpeedValue;
+        public int capacityValue;
+        public float fireRateValue;
+        public float fireDelayValue;
+        public float rangeValue;
+        public int currentAmmoF;
+        public int burstVolumeValueF;
+
+        public F3DTurret turretF3D;
+        //public Transform targetTestT;
+        [SerializeField] bool inFireSequence;
+        [SerializeField] bool readyToFire;
+        //[SerializeField] int turretFireIteration;
+
+        public bool InFireSequence { get { return inFireSequence; } set { inFireSequence = value; } }
+        public bool ReadyToFire { get { return readyToFire; } set { readyToFire = value; } }
+
         [Header("Turret setup")] public Transform[] TurretSocket; // Sockets reference
         public ParticleSystem[] ShellParticles; // Bullet shells particle system
 
@@ -134,6 +151,73 @@ namespace FORGE3D
                 curSocket = 0;
         }
 
+        public void InitializeFireTurretWeapon()
+        {
+            
+
+            
+
+
+
+            //StartCoroutine(WeaponFireVarianceHandler(aimSpeedValue, rangeValue, capacityValue, fireRateValue, fireDelayValue, burstVolumeValue));
+
+            if (!inFireSequence && readyToFire && turretF3D.turretTargetT != null)
+            {
+                StartCoroutine(WeaponFireVarianceHandler());
+            }
+        }
+
+        public IEnumerator WeaponFireVarianceHandler()
+        {
+            inFireSequence = true;
+            yield return new WaitForSeconds(aimSpeedValue);
+
+            /* -- Handle Weapon Magazine Capacity or CurrentAmmo -- */
+            for (int i = capacityValue; i > 0; i--)
+            {
+                /* -- Handle Burst Volume -- */
+                int fireIterations = burstVolumeValueF;
+                for (int j = fireIterations; j > 0; j--)
+                {
+                    if (currentAmmoF > 0 && turretF3D.turretTargetT != null && readyToFire && !turretF3D.outOfFiringArc1 && turretF3D.aimedAtTarget)
+                    //if (targetTestT && capacityValue > 0 && readyToFire)
+                    {
+                        Fire();
+                        currentAmmoF--;
+                        yield return new WaitForSeconds(fireRateValue);
+                        Debug.Log("Waited for fireRate");
+                    }
+                    else if (currentAmmoF == 0)
+                    {
+                        //Start Reload Action
+                        Debug.Log("Out of Ammo");
+                        readyToFire = false;
+                        Stop();
+                    }
+                    else
+                    {
+                        Stop();
+                    } 
+                }
+                
+                yield return new WaitForSeconds(fireDelayValue);
+
+                Debug.Log("Waited for fireDelay");
+            }
+
+            if (currentAmmoF == 0)
+            {
+                //Start Reload Action
+                Debug.Log("Out of Ammo Natural");
+                readyToFire = false;
+                Stop();
+            }
+
+
+
+
+        }
+
         // Fire turret weapon
         public void Fire()
         {
@@ -141,38 +225,39 @@ namespace FORGE3D
             {
                 case F3DFXType.Vulcan:
                     // Fire vulcan at specified rate until canceled
-                    timerID = F3DTime.time.AddTimer(VulcanFireRate, Vulcan);
+                    //timerID = F3DTime.time.AddTimer(VulcanFireRate, Vulcan);
+                    timerID = F3DTime.time.AddTimer(fireRateValue, Vulcan);
                     // Invoke manually before the timer ticked to avoid initial delay
                     Vulcan();
                     break;
 
                 case F3DFXType.SoloGun:
-                    timerID = F3DTime.time.AddTimer(0.2f, SoloGun);
+                    //timerID = F3DTime.time.AddTimer(0.2f, SoloGun);
                     SoloGun();
                     break;
 
                 case F3DFXType.Sniper:
-                    timerID = F3DTime.time.AddTimer(0.3f, Sniper);
+                    //timerID = F3DTime.time.AddTimer(0.3f, Sniper);
                     Sniper();
                     break;
 
                 case F3DFXType.ShotGun:
-                    timerID = F3DTime.time.AddTimer(0.3f, ShotGun);
+                    //timerID = F3DTime.time.AddTimer(0.3f, ShotGun);
                     ShotGun();
                     break;
 
                 case F3DFXType.Seeker:
-                    timerID = F3DTime.time.AddTimer(0.2f, Seeker);
+                    //timerID = F3DTime.time.AddTimer(0.2f, Seeker);
                     Seeker();
                     break;
 
                 case F3DFXType.RailGun:
-                    timerID = F3DTime.time.AddTimer(0.2f, RailGun);
+                    //timerID = F3DTime.time.AddTimer(0.2f, RailGun);
                     RailGun();
                     break;
 
                 case F3DFXType.PlasmaGun:
-                    timerID = F3DTime.time.AddTimer(0.2f, PlasmaGun);
+                    //timerID = F3DTime.time.AddTimer(0.2f, PlasmaGun);
                     PlasmaGun();
                     break;
 
@@ -197,7 +282,7 @@ namespace FORGE3D
                     break;
 
                 case F3DFXType.LaserImpulse:
-                    timerID = F3DTime.time.AddTimer(0.15f, LaserImpulse);
+                    //timerID = F3DTime.time.AddTimer(0.15f, LaserImpulse);
                     LaserImpulse();
                     break;
             }
@@ -206,12 +291,14 @@ namespace FORGE3D
         // Stop firing 
         public void Stop()
         {
+            inFireSequence = false;
+            StopCoroutine(WeaponFireVarianceHandler());
             // Remove firing timer
-            if (timerID != -1)
-            {
-                F3DTime.time.RemoveTimer(timerID);
-                timerID = -1;
-            }
+            //if (timerID != -1)
+            //{
+            //    F3DTime.time.RemoveTimer(timerID);
+            //    timerID = -1;
+            //}
 
             switch (DefaultFXType)
             {

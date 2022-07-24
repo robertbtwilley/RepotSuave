@@ -220,14 +220,40 @@ MonoBehaviour:
     WeaponBarrels:
     - {fileID: 1000014067569602, guid: 30478fc63b36c9d44bab4e81e7fe3305, type: 3}
     HasTurretScript: 0
+  - NeedLOD: 0
+    Name: TURRET_PDC
+    Base: {fileID: 6288662720551762804, guid: 4b78631f42a6d40faa6b19f6a8667974, type: 3}
+    Swivel: {fileID: 8057493008299115014, guid: 72324a1703c514b0b9e1a824063cc3de, type: 3}
+    SwivelPrefix: '*SOCKET_SWIVEL'
+    Head: {fileID: 0}
+    HeadPrefix: '*SOCKET_HEAD'
+    Mount: {fileID: 4486507212412829918, guid: 4c9a82ec60e4f4f91ae874287b0481c4, type: 3}
+    MountPrefix: '*SOCKET_MOUNT'
+    Breech: {fileID: 5051425944949697003, guid: 52c2cd85039c94c47af9df5b730daa2c, type: 3}
+    BarrelPrefix: '*SOCKET_'
+    WeaponSlotsNames:
+    - '*SOCKET_WEAPON_Left'
+    - '*SOCKET_WEAPON_Right'
+    WeaponSlots:
+    - {fileID: 7001198432027412444, guid: af3a3fdf0662c437487112ddf869c09b, type: 3}
+    - {fileID: 7436368626657333148, guid: 668da7327986b4ed2aca9babe6481dba, type: 3}
+    WeaponBreeches:
+    - {fileID: 5051425944949697003, guid: 52c2cd85039c94c47af9df5b730daa2c, type: 3}
+    WeaponBarrelSockets:
+    - '*SOCKET_WEAPON_Left'
+    - '*SOCKET_WEAPON_Right'
+    WeaponBarrels:
+    - {fileID: 7954734982276644728, guid: c5b91527bb9ab4a6b83e6a786bd24903, type: 3}
+    - {fileID: 5126159380664741033, guid: 0a1125d6f0ee24c5790451c2b774b841, type: 3}
+    HasTurretScript: 0
   Bases:
   - {fileID: 1000014129005834, guid: 5e1a998a19982e641bc88af5ea7febe3, type: 3}
   - {fileID: 1000011917176862, guid: 192743aa007eb85479480f7db3f1ff5d, type: 3}
-  - {fileID: 1782994640264937146, guid: 4b78631f42a6d40faa6b19f6a8667974, type: 3}
+  - {fileID: 260603418187028977, guid: ecfbd824ca7c5449ea2280dec1cbd3e7, type: 3}
   Swivels:
   - {fileID: 1000011629855234, guid: 4861b3399808db34b9b1ff0af96ec515, type: 3}
   - {fileID: 1000010028535356, guid: d6d66eff8b757294aac1f6d3bc1b0783, type: 3}
-  - {fileID: 2141734868986700171, guid: 4b8cf1d68379d4d0d80cebf78b6e3fa9, type: 3}
+  - {fileID: 8896520753576628845, guid: 0d4697353eeb34b06abaebb9f36de1a1, type: 3}
   SwivelPrefix: '*SOCKET_SWIVEL'
   Heads:
   - {fileID: 0}
@@ -239,6 +265,7 @@ MonoBehaviour:
   - {fileID: 1000012376239990, guid: 4a35dc2a8e8ad4a4985ccaa7a6279bf0, type: 3}
   - {fileID: 1000012616210216, guid: f452e84fa9c64c5418d26da691023c41, type: 3}
   - {fileID: 1000011299337130, guid: f879231cf12820f49b29468d5bbf34f6, type: 3}
+  - {fileID: 5892892204534817862, guid: b06d2fe35c8b044b08622a528fc87c11, type: 3}
   MountPrefix: '*SOCKET_MOUNT'
   Breeches:
   - {fileID: 1000012655529356, guid: 14604995a8fde1640b1aa0364cfdc118, type: 3}
@@ -249,6 +276,8 @@ MonoBehaviour:
   - {fileID: 1000013792537326, guid: a95cbf79f119a8241a692be1c58b869d, type: 3}
   - {fileID: 1000012838418926, guid: d586665bdccde9145918c2da60ea1def, type: 3}
   - {fileID: 1000013716476722, guid: f558618243298804f861cea061285e3e, type: 3}
+  - {fileID: 5051425944949697003, guid: 52c2cd85039c94c47af9df5b730daa2c, type: 3}
+  - {fileID: 8572597181091156836, guid: 6c08fefb7f45f4ec0a1619b9ddf6428c, type: 3}
   BarrelPrefix: '*SOCKET_BARREL'
   Barrels:
   - {fileID: 1000012765666776, guid: 94bf3c5b028a1d5458d9e508232efc2e, type: 3}
@@ -271,5 +300,7 @@ MonoBehaviour:
   - {fileID: 1000012461072786, guid: df2ec686ba2d29a4aa6816b3729f9ec2, type: 3}
   - {fileID: 1000012634698986, guid: e1c916487e237d24db284a05ced42030, type: 3}
   - {fileID: 1000012030464846, guid: f1dfa61b609810d41803a72dba2dce66, type: 3}
+  - {fileID: 777862750709107776, guid: 401653a7ce4aa411e9d6decefa502f89, type: 3}
+  - {fileID: 6289010253918564332, guid: 274f97549e78a424dab84a8749c40b2d, type: 3}
   SelectedTurret: 0
   WeaponSocket: '*SOCKET_WEAPON_'

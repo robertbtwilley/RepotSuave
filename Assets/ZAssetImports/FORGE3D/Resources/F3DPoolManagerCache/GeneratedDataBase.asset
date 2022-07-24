@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolsName: []
   pools:
-  - poolName: GeneratedPool
+  - poolName: PlatinumDragonSlaves
     templates: []
     poolLength: 
     poolLengthMax: 
